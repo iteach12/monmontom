@@ -37,6 +37,8 @@ body section {
   color: white;
 }
 
+.js-form {
+}
 .js-toDoForm input:focus {
   outline: none;
 }
