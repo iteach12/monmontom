@@ -20,11 +20,7 @@ body section {
   padding-top: 100px;
 }
 
-.js-toDoForm {
-  padding-top: 30px;
-}
-
-.js-toDoForm input {
+input {
   border: none;
   border-bottom: 1px solid white;
   font-size: 20px;
@@ -33,14 +29,16 @@ body section {
   background-color: transparent;
   color: white;
 }
-.js-toDoForm input::placeholder {
+input::placeholder {
   color: white;
 }
 
-.js-form {
-}
-.js-toDoForm input:focus {
+input:focus {
   outline: none;
+}
+
+.js-toDoForm {
+  padding-top: 30px;
 }
 
 .js-toDoList {
