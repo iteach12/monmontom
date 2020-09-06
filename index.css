@@ -1,13 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("reset.css");
+
 body {
+  height: 100vh;
+  width: 100vw;
   background-color: #ecf0f1;
+  color: white;
+  position: relative;
+}
+
+body section {
+  display: flex;
+  flex-direction: column;
+  font-family: "Do Hyeon", sans-serif;
+  align-items: center;
+}
+
+.main-info {
+  padding-top: 100px;
+}
+
+.js-toDoForm {
+  padding-top: 30px;
+}
+
+.js-toDoForm input {
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+.js-toDoForm input::placeholder {
   color: white;
 }
 
+.js-toDoForm input:focus {
+  outline: none;
+}
 
+.js-toDoList {
+  list-style-type: none;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 20px;
+}
 
-.form,
+.js-toDoList button {
+  background-color: transparent;
+  border: none;
+}
+
+.js-toDoList button:hover {
+  cursor: pointer;
+}
+
+.main-weather {
+  /* background-color: blue; */
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.js-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+}
+
+.js-form,
 .greetings {
   display: none;
+  font-size: 30px;
 }
 
 .showing {

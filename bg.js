@@ -9,7 +9,7 @@ function handleImgLoad() {
 
 function paintImage(imgNumber) {
   const image = new Image();
-  image.src = `images/${imgNumber + 1}.jpg`;
+  image.src = "https://source.unsplash.com/random/2880x1800";
   image.classList.add("bgImage");
 
   //로컬에서는 필요 없을 듯.
